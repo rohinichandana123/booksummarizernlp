@@ -1,4 +1,4 @@
-print("🔥 app.py file is executing")
+print("app.py file is executing")
 
 from flask import Flask
 from flask_cors import CORS
@@ -23,5 +23,5 @@ app.register_blueprint(books_bp, url_prefix="/api/books")
 app.register_blueprint(summary_bp, url_prefix="/api/summary")
 
 if __name__ == "__main__":
-    print("🚀 Flask API is starting...")
+    print("Flask API is starting...")
     app.run(debug=True)
